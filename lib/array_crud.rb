@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  beagles_nicknames = ["Cin", "Cinna_Monster", "Cin-City", "Cinnister"]
+  beagles_nicknames = ["Cin", "Cinna Monster", "Cin-City", "Cinnister"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -11,11 +11,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  beagles_nicknames.unshift("fat_dog")
+  beagles_nicknames.unshift("fat dog")
 end
 
 def remove_element_from_end_of_array(array)
-
+  beagles_nicknames.pop("good boy")
 end
 
 def remove_element_from_start_of_array(array)
